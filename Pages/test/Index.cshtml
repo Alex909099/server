@@ -1,0 +1,132 @@
+﻿@page
+@model WebAuthorization22.Pages.test.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="TGT">Тесты на знание Астрономии</h1>
+        <div class="IEld"></div>
+    </header>
+    <div class="all">
+        <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165411425141923900/1t.png?ex=6546c0f8&is=65344bf8&hm=3606726a10a6ea8bd7e2fcff4c76bd914818d2205843ca8c4a83c62bb691869a&" alt="">
+        <div class="goT1">
+            <h1 class="goTT">Смогу ли я стать космонавтом?</h1>
+            <a asp-area="" asp-page="/test/testpage/t1">тест</a>
+        </div>
+
+        <img src="./img/2t.png" class="igt2" alt="">
+        <div class="goT2">
+            <h1 class="goTT">Насколько хорошо я знаю космос?</h1>
+            <a asp-area="" asp-page="/test/testpage/t1">тест</a>
+        </div>
+        <img src="./img/3t.png" alt="">
+        <div class="goT3">
+            <h1 class="goTT">Насколько хорошо я знаю космос?</h1>
+             <a asp-area="" asp-page="/test/testpage/t1">тест</a>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .IEld {
+        position: relative;
+        left: 50px;
+        width: 160px;
+        height: 4px;
+        flex-shrink: 0;
+        border-radius: 2px;
+        background: #03FFE1;
+    }
+
+    body {
+        overflow-x: hidden;
+        background-color: #070613;
+        font-family: sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 20px;
+        flex-shrink: 0;
+        border-radius: 21px;
+        background: #D9D9D9;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    .all {
+        position: relative;
+        width: 100%;
+        background: #01001E;
+    }
+
+    .TGT {
+        margin-left: 40px;
+        margin-top: 20px;
+        color: #FFF;
+        font-family: Montserrat, sans-serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .goTT {
+        color: #FFF;
+        font-family: Montserrat, sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .goT1 {
+        position: relative;
+        top: -500px;
+        left: 900px;
+    }
+
+    .a1gt {
+        position: relative;
+        left: 250px;
+        top: 50px;
+    }
+
+    .igt2 {
+        position: relative;
+        right: -140px;
+    }
+
+    .goT2 {
+        position: relative;
+        top: -600px;
+        left: 20px;
+    }
+
+    .goT3 {
+        position: absolute;
+        top: 2300px;
+        left: 900px;
+    }</style>

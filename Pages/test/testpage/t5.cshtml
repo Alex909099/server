@@ -1,0 +1,91 @@
+﻿@page
+@model WebAuthorization22.Pages.test.testpage.t5Model
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./testpage.css">
+    <script src="./proverotv.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="Vopros">Что находится в центре нашей галактики?</h1>
+    <div class="IEld"></div>
+    <img class="imtp" src="../img/page5.png" alt="">
+    <div class="otvets">
+        <a href="./theend.html"><div class="totv">Черная дыра</div></a>
+        <div class="totv" id="myObject" onclick="changeColor()">Туманность</div>
+        <div class="totv" id="myObject1" onclick="changeColor1()">Точного ответа нет</div>
+    </div>
+    <h1 class="nomvopr">5 / 5</h1>
+</body>
+</html>
+<div id="myObject" onclick="changeColor()"></div>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        overflow: hidden;
+        background: #01001E;
+    }
+
+    .img {
+        position: absolute;
+    }
+
+    .i2 {
+        left: 500px;
+    }
+
+    .i3 {
+        left: 800px;
+        top: 150px;
+    }
+
+    .i4 {
+        left: 1400px;
+    }
+
+    .ETTG {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .ETTDop {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 550px;
+    }
+
+    .ETTDiv {
+        position: relative;
+        left: 120px;
+        top: 300px;
+    }
+</style>
+<script>
+    function changeColor() {
+        var myObject = document.getElementById("myObject");
+        myObject.style.backgroundColor = "red";
+        myObject.style.opacity = "0.5";
+    }
+    function changeColor1() {
+        var myObject = document.getElementById("myObject1");
+        myObject.style.backgroundColor = "red";
+        myObject.style.opacity = "0.5";
+    }
+</script>

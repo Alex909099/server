@@ -1,0 +1,117 @@
+﻿@page
+@model WebAuthorization22.Pages.test.testpage._1Model
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./testpage.css">
+    <script src="./proverotv.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="Vopros">Сколько планет в солнечной системе?</h1>
+    <div class="IEld"></div>
+    <img class="imtp" src="https://cdn.discordapp.com/attachments/1164615998066929777/1165410717692874772/page1.png?ex=6546c04f&is=65344b4f&hm=83cd5ff520ad751f83d11375004d608f73c3c03df3b9b1b78409e5d0e5e0d8dd&" alt="">
+    <div class="otvets">
+        <a asp-area="" asp-page="/test/testpage/t2">тест</a>
+        <div class="totv" id="myObject" onclick="changeColor()">8</div>
+        <div class="totv" id="myObject1" onclick="changeColor1()">7</div>
+    </div>
+    <h1 class="nomvopr">1 / 5</h1>
+</body>
+</html>
+<div id="myObject" onclick="changeColor()" </div>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background: url(https://cdn.discordapp.com/attachments/1164615998066929777/1165520906559443025/fontest.png?ex=654726ee&is=6534b1ee&hm=7805bc37e6a922a8fb3697350c807b0b4c5e5584918ef6171731890efd7d0e00&), lightgray 50% / cover no-repeat;
+        background-color: #070613;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: default;
+        color: #FFF;
+    }
+
+    .Vopros {
+        margin-left: 200px;
+        margin-top: 100px;
+        color: #FFF;
+        font-family: Montserrat, sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .IEld {
+        position: relative;
+        left: 200px;
+        width: 190px;
+        height: 4px;
+        flex-shrink: 0;
+        border-radius: 2px;
+        background: #03FFE1;
+    }
+
+    .imtp {
+        width: 600px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    .totv {
+        cursor: default;
+        width: 300px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 31px;
+        background: rgba(89, 89, 89, 0.60);
+        margin: 20px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        color: #FFF;
+        transition: 1s;
+    }
+
+    .otvets {
+        position: absolute;
+        top: 190px;
+        left: 1000px;
+    }
+
+    .nomvopr {
+        margin-left: 250px;
+        margin-top: 50px;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+</style>
+
+<script>
+    function changeColor() {
+        var myObject = document.getElementById("myObject");
+        myObject.style.backgroundColor = "red";
+        myObject.style.opacity = "0.5";
+    }
+    function changeColor1() {
+        var myObject = document.getElementById("myObject1");
+        myObject.style.backgroundColor = "red";
+        myObject.style.opacity = "0.5";
+    }
+</script>

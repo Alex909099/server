@@ -1,0 +1,1111 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel=" shortcut icon" href="./png/icon.png" />
+    <script src="./script.js"></script>
+    <title>Space System</title>
+</head>
+<body>
+    <button onclick="changeClass()" class="nextB none" id="SNIE">></button></div>
+    <div class="multispace">
+
+        <div class="space1 element1 none" id="element1">
+            <div id="NIE" class="none">
+                <div class="orbits">
+                    <div class="orbit o1"></div>
+                    <div class="orbit o2"></div>
+                    <div class="orbit o3"></div>
+                    <div class="orbit o4"></div>
+                </div>
+
+                <div class="dsun">
+                    <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165413798744694824/GiantSun.png?ex=6546c32d&is=65344e2d&hm=e5ccd02d713f2eaa941f1f46b8967945b1ef01c065560b3719791d546335129b&" alt="" class="sun sunZ">
+                    <h1 class="sunT ST1">Sun</h1>
+                    <h1 class="sunT ST2">Солнце</h1>
+                </div>
+                <div class="dmerk">
+                    <div class="rast1">
+                        <h1>58 млн км</h1>
+                        <div class="tochrast"></div>
+                    </div>
+                    <div class="planet1">
+                        <div class="pt">
+                            <h1 class="sunT merT1">Mercury</h1>
+                            <h1 class="sunT merT2">Меркурий</h1>
+                        </div>
+                        <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165413600857423922/mercury.png?ex=6546c2fe&is=65344dfe&hm=c1ea307e4d771505f74eac8cd47cdebe314b5b6a19d0cafbb09e847b8610c44f&" class="sunZ" alt="">
+                    </div>
+                </div>
+                <div class="dvenera">
+                    <div class="rast2">
+                        <h1>107 млн км</h1>
+                        <div class="tochrast"></div>
+                    </div>
+                    <div class="planet2">
+                        <div class="pt2">
+                            <h1 class="sunT venT1">Venera</h1>
+                            <h1 class="sunT venT2">Венера</h1>
+                        </div>
+                        <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165414031859908730/venera.png?ex=6546c365&is=65344e65&hm=aeac1786325e562bb3ba77481f66b65cb929e217429b0ae32aae11fcf3b231d4&" class="sunZ" alt="">
+                    </div>
+                </div>
+                <div class="dearth">
+                    <div class="rast3">
+                        <h1>147 млн км</h1>
+                        <div class="tochrast"></div>
+                    </div>
+                    <div class="planet3">
+                        <div class="pt3">
+                            <h1 class="sunT earT1">Earth</h1>
+                            <h1 class="sunT earT2">Земля</h1>
+                        </div>
+
+                        <div class="moo">
+                            <h1 class="sunT mooT1">Moon</h1>
+                            <h1 class="sunT mooT2">Луна</h1>
+                            <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165414219789893683/moon.png?ex=6546c392&is=65344e92&hm=fb36d743132df7789fb38ad03b07067c6644b8a3b9bdc8ca6c1cd4ab4410d9e7&" class="sunZ" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dmars">
+                    <div class="rast4">
+                        <h1>228 млн км</h1>
+                        <div class="tochrast"></div>
+                    </div>
+                    <div class="planet4">
+                        <div class="pt4">
+                            <h1 class="sunT marT1">Mars</h1>
+                            <h1 class="sunT marT2">Марс</h1>
+                        </div>
+                        <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165417766669533345/mars.png?ex=6546c6df&is=653451df&hm=9ae58e844ff0673623f86aef7c50607a5da343f5915b64fcfd678a6f1e8f90be&" class="sunZ" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="next"></div>
+                </div>
+            </div>
+            <div class="eInf">
+                <button onclick="info()" class="BIE">
+                    <img width="249px" height="242px" src="https://cdn.discordapp.com/attachments/1164615998066929777/1165416858011308093/GiantEarth.png?ex=6546c607&is=65345107&hm=6dd65622f918de131f66db413fd20d91afbe1fd22ab3d934b036d7f2782f64eb&" class=" noneE" id="IE" alt="">
+                </button>
+            </div>
+            <div class="AAAAAAAAAAAAAAAAAAAAAAA IEhid" id="IEE">
+                <div class="IEgTo">
+                    <button onclick="info()" class="BIE2"></button>
+                    <svg class="backS" width="66" height="62" viewBox="0 0 66 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32.3879 23.0267L28.2048 19.0418L15.6497 30.9994L28.2019 42.957L32.3849 38.9693L26.9801 33.8176H49.277V28.1812L26.9801 28.1812L32.3879 23.0267Z" fill="#03FFE1" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.53175 9.07987C-3.17725 21.1869 -3.17725 40.8128 9.53175 52.9198C22.2408 65.0267 42.8426 65.0267 55.5516 52.9198C68.2606 40.8128 68.2606 21.1869 55.5516 9.07987C42.8426 -3.02711 22.2408 -3.02711 9.53175 9.07987ZM13.7148 13.0648C8.72165 17.8215 5.9165 24.2729 5.9165 30.9998C5.9165 37.7268 8.72165 44.1782 13.7148 48.9348C18.708 53.6915 25.4802 56.3638 32.5417 56.3638C39.6031 56.3638 46.3753 53.6915 51.3685 48.9348C56.3617 44.1782 59.1668 37.7268 59.1668 30.9998C59.1668 24.2729 56.3617 17.8215 51.3685 13.0648C46.3753 8.30814 39.6031 5.63588 32.5417 5.63588C25.4802 5.63588 18.708 8.30814 13.7148 13.0648Z" fill="#03FFE1" />
+                    </svg></button>
+                    <h1 class="IEGT">Земля</h1>
+                    <div class="IEld"></div>
+                    <h1 class="IEo">Практический опыт показывает, что рамки и место обучения кадров представляет собой интересный эксперимент проверки новых предложений. Дорогие друзья, выбранный нами инновационный путь играет важную роль в формировании дальнейших направлений развитая системы массового участия.</h1>
+                    <div class="IEGO">
+                        <div class="pag">
+                            <h1 class="p1">Тропосфера</h1>
+                            <h1 class="p2">0 - 6-20 km</h1>
+                            <h1 class="p1">Стратосфера</h1>
+                            <h1 class="p2">6-20 km - 50 km</h1>
+                            <h1 class="p1">Мезосфера</h1>
+                            <h1 class="p2">50 km - 80 km</h1>
+                            <h1 class="p1">Термосфера</h1>
+                            <h1 class="p2">700 km - 10000 km</h1>
+                            <h1 class="IEpO">384.789 km</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165414219789893683/moon.png?ex=6546c392&is=65344e92&hm=fb36d743132df7789fb38ad03b07067c6644b8a3b9bdc8ca6c1cd4ab4410d9e7&" class="IEmimg" alt="">
+                    <div class="orIE"></div>
+                </div>
+                <div class="IEmG">
+                    <div class="IEAAAA">
+                        <h1 class="IEMTG">Луна</h1>
+                        <h1 class="IEMOT">Значимость этих проблем настолько очевидна, что реализация намеченного плана развития играет важную роль в формировании дальнейших...</h1>
+
+                    </div>
+
+                    <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165414856535572500/GiantMoon.png?ex=6546c42a&is=65344f2a&hm=a2c8e1880cc467bd7d341d298f76bdc47965bb06b3eec750c0a5fefa80276c8f&" style="width: 300px; height: 300px; position: relative;
+            top: -50px;">
+                    <div class="pag" style="position: relative;
+            top: -50px;">
+                        <h1 class="p1">Гравитация</h1>
+                        <h1 class="p2">3,7 m/s2</h1>
+                        <h1 class="p1">Диаметр</h1>
+                        <h1 class="p2">4879 km</h1>
+                        <h1 class="p1">Температура</h1>
+                        <h1 class="p2">167 градусов</h1>
+                        <h1 class="p1">Вращений в час</h1>
+                        <h1 class="p2">1407 раз</h1>
+                    </div>
+                </div>
+                <div class="IEGLi"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="IECI">
+                    <h1>Строение</h1>
+                    <div class="IEld" style="top: 0px;"></div>
+                    <img class="IECstron" src="https://cdn.discordapp.com/attachments/1164615998066929777/1165415899071787018/EarthStroenie.png?ex=6546c522&is=65345022&hm=860a98302cf63f80b04e9fc728181213c05afa5bc27104512fc4199e49c9a66d&" alt="">
+                    <div class="IECli1"></div>
+                    <div class="IECli2"></div>
+                    <div class="IECli3"></div>
+                    <div class="IECli4"></div>
+                    <div class="IECli5"></div>
+                    <h1 class="IECte1 E">Ядро</h1>
+                    <h1 class="IECte2 E">Нижняя Мантия</h1>
+                    <h1 class="IECte3 E">Верхняя Мантия</h1>
+                    <h1 class="IECte4 E">Верхняя Мантия</h1>
+                    <h1 class="IECte5 E">Земная Кора</h1>
+                </div>
+                <div class="IEGLi"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="IEMI">
+                    <h1>Мультимедия</h1>
+                    <div class="IEld" style="top: 0px;"></div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 class="IEEdopGT">Работа Российского спутника </h1>
+                    <iframe width="869" height="516" class="IEEMMS" src="https://www.youtube.com/embed/_HGQZlK08gQ" title="🌎 LIVE: NASA Live Stream Earth From Space / Real ISS Live Feed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="569" height="316" class="IEEMVS" src="https://isstracker.pl/en/widget/map?disableInfoBox=1&lang=en"></iframe>
+                    <div class="newlist">
+                        <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165415048907341834/1new.png?ex=6546c458&is=65344f58&hm=5d99b09c50f02e3242962174a29a71575af359a8ef656acfe5ab1189f373b558&" alt="">
+                        <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165415049138032721/2new.png?ex=6546c458&is=65344f58&hm=68848aed09244b9263608692b1c9d60662706edfaa82e61d4e895728ca5df9c8&" alt="">
+                    </div>
+                    <div class="newbar1">
+                        <div class="verlin"></div>
+                        <h1 class="nbt">Работа Российского спутника </h1>
+                        <h1 class="nbt">“НАУКА” ПРЯМОЙ ЭФИР</h1>
+                    </div>
+                    <div class="newbar2">
+                        <div class="verlin"></div>
+                        <h1 class="nbt">Работа Российского спутника </h1>
+                        <h1 class="nbt">“НАУКА” ПРЯМОЙ ЭФИР</h1>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="space2 element3 " id="element2">
+            <div class="orbit o5"></div>
+            <div class="dmerk">
+                <div class="rast5">
+                    <h1>740 млн км</h1>
+                    <div class="tochrast"></div>
+                </div>
+                <div class="planet5">
+                    <div class="pt5">
+                        <h1 class="sunT jupT1">Jupiter</h1>
+                        <h1 class="sunT jupT2">Юпитер</h1>
+                    </div>
+                    <img src="https://cdn.discordapp.com/attachments/1164615998066929777/1165416337607233576/jupiter.png?ex=6546c58b&is=6534508b&hm=1ed4fcdb7fcadf75d7fdccb31ccd6109b525226975b8b9d2b46021f6588be882&" class="sunZ" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="space3 element2" id="element3">
+        </div>
+    </div>
+</body>
+</html>
+<style> 
+    *{
+    padding: 0px;
+    margin: 0px;
+    color: #FFF;
+    
+}
+
+!font-face {
+    font-family: 'Notable';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Notable'), url('./fonts/NotableRegular.woff') format('woff');
+}
+
+
+
+
+.EIE {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-80%, -30%) scale(3);
+    transition: transform 0.5s ease;
+  }
+  
+
+
+
+
+.eInf{
+    position: absolute;
+    top: 350px;
+    left: 930px;
+    z-index: 0;
+}
+
+.infoE{
+    position: absolute;
+    left: -9999999999999px;
+    transition: 2s;
+    opacity: 0;
+    color: #ffffff00;
+    transition: transform 1s ease;
+}
+.noneE:hover{
+    transform: scale(1.2) rotate(12deg);
+}
+.noneE{
+    transition: transform 1s ease;
+}
+.none{
+    transition: 2s;
+}
+.IE{
+    opacity: 1;
+}
+.moP{
+    position: relative;
+    margin-left: 230px;
+    top: -300px;
+}
+.BIE{
+    background: none;
+    /* width: 250px;
+    height: 250px; */
+    border: none;
+    z-index: 1;
+}
+.BIE2{
+    position: absolute;
+    background: none;
+    width: 250px;
+    height: 250px;
+    top: 0px;
+    border: none;
+    z-index: 1;
+}
+.multispace{
+    position: absolute;
+    top: 80px;
+    z-index: -1;
+}
+.sunZ:hover{
+    transform: scale(1.2) rotate(12deg);
+}
+.sunZ{
+    transition: transform 1s ease;
+}
+
+.next{
+    width: 2156px;
+height: 2156px;
+border-radius: 2156px;
+border: 163px solid #634B4B;
+background: rgba(217, 217, 217, 0.00);
+left: -750px;
+    top: -700px;
+    position: absolute;
+    z-index: -3;
+}
+.nextB{
+    top: 400px;
+    left: 1700px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background: none;
+    font-size: 90px;
+    color: #FFF ;
+    z-index: 1;
+}
+.element1{
+    transform: translateX(100px);
+    transition: 1s;
+    z-index: 1;
+}
+.element2{
+    opacity: 0;
+    position: absolute;
+    left: -999999px;
+    transform: translateX(-100px);
+    transition: 1s;
+}
+.element3{
+    position: absolute;
+    opacity: 0;
+    position: absolute;
+    left: -999999px;
+    transform: translateX(-100px);
+    transition: 1s;
+}
+
+h1{
+    width: 200px;
+}
+
+
+
+
+.sun{
+    position: absolute;
+    z-index: -1;
+    top: -50px;
+    left: -700px;
+}
+.anrot{
+    
+    transition: 3s;
+}
+.anrot:hover{
+    rotate: 45deg;
+    transition: 3s;
+}
+.anrot2{
+    transition: 3s;
+}
+.anrot2:hover{
+    rotate: 15deg;
+    transition: 3s;
+}
+
+
+body{
+    overflow-x: hidden;
+    background: #070613;
+}
+header{
+    width: 100%;
+    height: 151px;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(7,6,19,0) 100%);
+    z-index: 99999999;
+}
+.SilkaHed{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #737373;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.silk{
+    padding-top: 40px;
+}
+.VS{
+    color: #FFF;
+font-family: sans-serif;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: underline;
+}
+
+
+
+.orbit{
+    z-index: -1;
+    position: absolute;
+    width: 3352px;
+height: 1801px;
+flex-shrink: 0;
+    border-radius: 3352px;
+border: 1px solid #FFF;
+background: rgba(217, 217, 217, 0.00);
+}
+.o1{
+    left: -2900px;
+    top: -500px;
+}
+.o2{
+    left: -2600px;
+    top: -500px;
+}
+.o3{
+    left: -2300px;
+    top: -500px;
+}
+.o4{
+    left: -2000px;
+    top: -500px;
+}
+
+
+
+/*SUN*//*SUN*//*SUN*//*SUN*//*SUN*//*SUN*//*SUN*/
+.sunT{
+    color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+}
+.ST1{
+    margin-left: 300px;
+    margin-top: 220px;
+    font-family: 'Notable', sans-serif;
+}
+.ST2{
+    margin-left: 280px;
+    margin-top: 260px;
+    font-family: sans-serif; 
+}
+
+
+
+/*MERCURY*//*MERCURY*//*MERCURY*//*MERCURY*//*MERCURY*//*MERCURY*/
+.rast1{
+    color: #FFF;
+font-family: 'Notable';
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    position: absolute;
+    left: 300px;
+    width: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.tochrast{
+position: relative;
+left: 57px;
+height: 15px;
+flex-shrink: 0;
+background-color: #D9D9D9;
+border-radius: 100%;
+z-index: 5;
+}
+.planet1{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+.merT1{
+    color: #FFF;
+    font-family: 'Notable';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+
+    top: -10px;
+    margin-left: -10px;
+}
+.merT2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.pt{
+    left: -5px;
+    top: -10px;
+    position: relative;
+    padding: 20px;
+}
+
+/*VENERA*//*VENERA*//*VENERA*//*VENERA*//*VENERA*//*VENERA*/
+.rast2{
+    color: #FFF;
+font-family: 'Notable';
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    position: absolute;
+    left: 600px;
+    width: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.planet2{
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    
+}
+.venT1{
+    color: #FFF;
+    font-family: 'Notable';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+
+    top: -10px;
+    margin-left: -10px;
+}
+.venT2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.pt2{
+    left: 50px;
+    top: 270px;
+    position: relative;
+    padding: 20px;
+}
+
+
+/*EARTH*//*EARTH*//*EARTH*//*EARTH*//*EARTH*//*EARTH*//*EARTH*/
+.rast3{
+    color: #FFF;
+font-family: 'Notable';
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    position: absolute;
+    left: 900px;
+    width: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.planet3{
+    position: absolute;
+    left: 930px;
+    top: 300px;
+}
+
+.earT1{
+    color: #FFF;
+    font-family: 'Notable';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+
+    top: -10px;
+    margin-left: -10px;
+}
+.earT2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.pt3{
+    left: 70px;
+    top: 0px;
+    position: relative;
+    padding: 20px;
+}
+/* moon *//* moon *//* moon *//* moon *//* moon *//* moon */
+.moo{
+    position: absolute;
+    left: 230px;
+    top: 00px;
+}
+.mooT1{
+    color: #FFF;
+    font-family: 'Notable';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+
+    top: -50px;
+    margin-left: -5px;
+}
+.mooT2{
+    top: -25px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+/* MARS *//* MARS *//* MARS *//* MARS *//* MARS *//* MARS */
+.rast4{
+    color: #FFF;
+font-family: 'Notable';
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    position: absolute;
+    left: 1200px;
+    width: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.planet4{
+    position: absolute;
+    left: 1250px;
+    top: 300px;
+    
+}
+
+.marT1{
+    color: #FFF;
+    font-family: 'Notable';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+
+    top: -10px;
+    margin-left: -10px;
+}
+.marT2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.pt4{
+    left: 60px;
+    top: 240px;
+    position: relative;
+    padding: 20px;
+}
+
+
+
+/* JUPITER *//* JUPITER *//* JUPITER *//* JUPITER *//* JUPITER */
+.rast5{
+    color: #FFF;
+font-family: 'Notable';
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    position: absolute;
+    left: 435px;
+    width: 15px;
+    padding: 20px;
+    text-align: center;
+    top: 100px;
+}
+.planet5{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+
+.jupT1{
+    color: #FFF;
+    font-family: 'Notable';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 20px;
+
+    top: -10px;
+    margin-left: -10px;
+}
+.jupT2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.pt5{
+    left: 660px;
+    top: 150px;
+    position: relative;
+    padding: 20px;
+}
+
+.o5{
+    left: -2800px;
+    top: -500px;
+}
+
+
+
+
+
+
+
+
+.backS{
+    position: relative;
+    top: -150px;
+}
+
+.AAAAAAAAAAAAAAAAAAAAAAA{
+    padding-top: 200px;
+}
+.IEGT{
+    position: relative;
+    top: -150px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.IEld{
+    position: relative;
+    top: -160px;
+    width: 160px;
+height: 4px;
+flex-shrink: 0;
+border-radius: 2px;
+background: #03FFE1;
+}
+.IEo{
+    position: relative;
+    top: -140px;
+    width: 349px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.IEmG{
+    width: 500px;
+    position: absolute;
+    left: 1400px;
+    top: 80px;
+    text-align: left;
+}
+.IEMTG{
+    position: relative;
+    left: 190px;
+    color: #9BB1FF;
+font-family: Montserrat;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.IEAAAA{
+    position: relative;
+    top: -60px;
+}
+.IEMOT{
+    position: relative;
+    top: -00px;
+    text-align: right;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 327px;
+}
+.p1{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 30px;
+margin-top: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.p2{
+    color: #03FFE1;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.IEGO{
+    position: relative;
+    top: -140px;
+}
+.IEpO{
+    color: #9BB1FF;
+font-family: Montserrat;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 400px;
+}
+.orIE{
+    width: 815px;
+height: 815px;
+flex-shrink: 0;
+border-radius: 815px;
+border: 1px solid #585858;
+position: absolute;
+top: 20px;
+left: 450px;
+}
+
+.IEmimg{
+    position: absolute;
+    left: 1040px;
+    top: 50px;
+    z-index: 1;
+}
+.IEGLi{
+    width: 1676px;
+height: 4px;
+flex-shrink: 0;
+border-radius: 2px;
+background: #444;
+}
+.IECstron{
+    margin-left: 300px;
+}
+.IECli1{
+    position: absolute;
+    left: 250px;
+    top: 1500px;
+    width: 286.742px;
+height: 4px;
+transform: rotate(5.591deg);
+flex-shrink: 0;
+border-radius: 2px;
+background: #018F7F;
+}
+.IECli2{
+    position: absolute;
+    left: 680px;
+    top: 1450px;
+    width: 654.612px;
+height: 4px;
+transform: rotate(-12.433deg);
+flex-shrink: 0;
+border-radius: 2px;
+background: #018F7F;
+}
+.IECli3{
+    position: absolute;
+    left: 350px;
+    top: 1250px;
+    width: 247.266px;
+height: 4px;
+transform: rotate(9.394deg);
+flex-shrink: 0;
+border-radius: 2px;
+background: #018F7F;
+}
+.IECli4{
+    position: absolute;
+    left: 500px;
+    top: 1100px;
+    width: 286.742px;
+height: 4px;
+transform: rotate(13.945deg);
+flex-shrink: 0;
+border-radius: 2px;
+background: #018F7F;
+}
+.IECli5{
+    position: absolute;
+    left: 950px;
+    top: 1050px;
+    width: 286.742px;
+height: 4px;
+transform: rotate(137.445deg);
+flex-shrink: 0;
+border-radius: 2px;
+background: #018F7F;
+}
+
+.E{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.IECte1{
+    position: absolute;
+    left: 200px;
+    top: 1440px;
+    width: 400px;
+}
+.IECte2{
+    position: absolute;
+    left: 1330px;
+    top: 1340px;
+    width: 400px;
+}
+.IECte3{
+    position: absolute;
+    left: 250px;
+    top: 1180px;
+    width: 400px;
+}
+.IECte4{
+    position: absolute;
+    left: 450px;
+    top: 1020px;
+    width: 400px;
+}
+.IECte5{
+    position: absolute;
+    left: 1150px;
+    top: 900px;
+    width: 400px;
+}
+.IEEMVS{
+    position: relative;
+    left: -750px;
+    top: -195px;
+}
+.IEEMMS{
+    position: relative;
+    top: 20px;
+    left: 750px;
+}
+.newlist{
+    position: relative;
+    left: 140px;
+    top: -200px;
+}
+.verlin{
+    width: 62.422px;
+height: 4.471px;
+transform: rotate(89.996deg);
+flex-shrink: 0;
+border-radius: 2px;
+background: #03FFE1;
+}
+.nbt{
+    position: relative;
+    left: 50px;
+    top: -35px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.42px;
+}
+.newbar1{
+    position: relative;
+    top: -250px;
+    left: 130px;
+}
+.newbar2{
+    position: relative;
+    top: -320px;
+    left: 400px;
+}
+
+.IEhid{
+    position: absolute;
+    left: -9999999999999999999999px;
+    opacity: 0;
+}
+.IEEdopGT{
+    width: 500px;
+    position: relative;
+    left: 750px;
+    top: 20px;
+}
+</style>
+<script>
+    function changeClass() {
+        var element1 = document.getElementById("element1");
+        var element2 = document.getElementById("element2");
+        var element3 = document.getElementById("element3");
+
+        if (element1.classList.contains("element1")) {
+            element1.classList.remove("element1");
+            element1.classList.add("element2");
+        } else if (element1.classList.contains("element2")) {
+            element1.classList.remove("element2");
+            element1.classList.add("element3");
+        } else {
+            element1.classList.remove("element3");
+            element1.classList.add("element1");
+        }
+
+        if (element2.classList.contains("element1")) {
+            element2.classList.remove("element1");
+            element2.classList.add("element2");
+        } else if (element2.classList.contains("element2")) {
+            element2.classList.remove("element2");
+            element2.classList.add("element3");
+        } else {
+            element2.classList.remove("element3");
+            element2.classList.add("element1");
+        }
+
+        if (element3.classList.contains("element1")) {
+            element3.classList.remove("element1");
+            element3.classList.add("element2");
+        } else if (element3.classList.contains("element2")) {
+            element3.classList.remove("element2");
+            element3.classList.add("element3");
+        } else {
+            element3.classList.remove("element3");
+            element3.classList.add("element1");
+        }
+    }
+
+
+    function info() {
+        var element4 = document.getElementById("NIE");
+        var element5 = document.getElementById("IE");
+        var element6 = document.getElementById("IEE");
+        var element7 = document.getElementById("SNIE");
+
+        if (element4.classList.contains("none")) {
+            element4.classList.remove("none");
+            element4.classList.add("infoE");
+        } else if (element4.classList.contains("infoE")) {
+            element4.classList.remove("infoE");
+            element4.classList.add("none");
+        }
+        if (element7.classList.contains("none")) {
+            element7.classList.remove("none");
+            element7.classList.add("infoE");
+        } else if (element7.classList.contains("infoE")) {
+            element7.classList.remove("infoE");
+            element7.classList.add("none");
+        }
+
+
+        if (element5.classList.contains("noneE")) {
+            element5.classList.remove("noneE");
+            element5.classList.add("EIE");
+        } else if (element5.classList.contains("EIE")) {
+            element5.classList.remove("EIE");
+            element5.classList.add("noneE");
+        }
+
+
+        if (element6.classList.contains("IEhid")) {
+            element6.classList.remove("IEhid");
+            element6.classList.add("n");
+        } else if (element6.classList.contains("n")) {
+            element6.classList.remove("n");
+            element6.classList.add("IEhid");
+        }
+    }
+</script>

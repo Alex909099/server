@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebAuthorization22
+build_property.RootNamespace = WebAuthorization22
+build_property.ProjectDir = C:\Users\Илья\source\repos\WebAuthorization22\WebAuthorization22\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Илья\source\repos\WebAuthorization22\WebAuthorization22
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Messages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Messages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Messages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Messages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Messages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVzc2FnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/test/testpage/t1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFx0ZXN0cGFnZVx0MS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/test/testpage/t2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFx0ZXN0cGFnZVx0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/test/testpage/t3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFx0ZXN0cGFnZVx0My5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/test/testpage/t4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFx0ZXN0cGFnZVx0NC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/test/testpage/t5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFx0ZXN0cGFnZVx0NS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Илья/source/repos/WebAuthorization22/WebAuthorization22/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-myq1p36x45

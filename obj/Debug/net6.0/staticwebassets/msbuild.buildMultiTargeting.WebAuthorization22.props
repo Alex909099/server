@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAuthorization22.props" />
+</Project>
